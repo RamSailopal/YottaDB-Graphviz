@@ -31,5 +31,13 @@ A copy of the PDF is also available in the examples folder.
 Each "node" has a comma separated entry. The first comma separated entry being the subscript and the second the value.
 
 
+References:
+
+YottaDB - https://yottadb.com/
+
+mg_python - https://github.com/chrisemunt/mg_python
+
+Graphviz - https://graphviz.org/
+
 
 
