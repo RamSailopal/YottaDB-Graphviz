@@ -5,7 +5,9 @@ This repo demonstrates how YottaDB globals can be displayed as a chart generated
 To view the demo on Gitpod:
 
 1) Create a free/paid Gitpod account - https://www.gitpod.io/
+ 
 2) Log into the account
+ 
 3 )Open a new browser tab and add gitpod.io/#https://github.com/RamSailopal/YottaDB-Graphviz to the address - This will create a new Gitpod cloud instance.
 
 A global ^CARS is already created with the following data:
