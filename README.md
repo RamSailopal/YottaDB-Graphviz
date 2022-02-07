@@ -24,6 +24,8 @@ Once the Gitpod environment is provisioned, a new document will be generated as 
 
 ![Alt text](pdf.png?raw.true "pdf example")
 
+A copy of the PDF is also available in the examples folder.
+
 
 
 
