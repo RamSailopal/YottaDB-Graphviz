@@ -49,5 +49,5 @@ while (key != ""):
       key1  = mg_python.m_order(0, glbal, key, key1) 
    key  = mg_python.m_order(0, glbal, key)
 print(dot.source)
-dot.render('/var/srvbak/www/htdocs/Ram/global-' + glbal + '.gv').replace('\\', '/')
-dot.render('/var/srvbak/www/htdocs/Ram/global-' + glbal + '.gv')
+dot.render('global-' + glbal + '.gv').replace('\\', '/')
+dot.render('global-' + glbal + '.gv')
