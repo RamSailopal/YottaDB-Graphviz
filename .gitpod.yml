@@ -1,0 +1,15 @@
+tasks:
+  - init: |
+      echo 'TODO: build project'
+    command: |
+      docker run -v $PWD/entrypoint:/home/entrypoint --entrypoint /home/entrypoint/entrypoint.sh -p 7041:7041 -d ramb0/yottadb-gateway && 
+      sudo apt-get update &&
+      sudo apt-get install -y python3 python-dev-is-python3 git gcc make xdg-utils.noarch &&
+      cd /usr/local &&
+      sudo git clone https://github.com/chrisemunt/mg_python.git &&
+      cd /usr/local/mg_python/src &&
+      sudo /home/gitpod/.pyenv/versions/3.8.12/bin/python3 setup.py install
+      python3 -m pip install graphviz && 
+      sleep 1 && 
+      python3  
+
