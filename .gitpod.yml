@@ -8,8 +8,8 @@ tasks:
       cd /usr/local &&
       sudo git clone https://github.com/chrisemunt/mg_python.git &&
       cd /usr/local/mg_python/src &&
-      sudo /home/gitpod/.pyenv/versions/3.8.12/bin/python3 setup.py install
+      sudo python3 setup.py install
       python3 -m pip install graphviz && 
       sleep 1 && 
-      python3  
+      python3 globalgraph.py 
 
