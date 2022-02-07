@@ -22,6 +22,8 @@ globalgraph.py then holds code to connect to the CARS global in the YottaDB data
 
 Once the Gitpod environment is provisioned, a new document will be generated as below:
 
+![Alt text](example/global-^CARS_view.pdf?raw=true "pdf example")
+
 
 
 
